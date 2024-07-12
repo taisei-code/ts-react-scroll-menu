@@ -7,7 +7,7 @@ function App() {
 
   const handleScroll = () => {
     const scrollTop = window.scrollY;
-    if (scrollTop > 50) { // 100px以上スクロールしたら表示
+    if (scrollTop > 50) { 
       setShowMenu(true);
     } else {
       setShowMenu(false)
