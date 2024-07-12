@@ -1,0 +1,12 @@
+/* src/Menu.css */
+.menu {
+  position: fixed;
+  top: 15px;
+  right: 25px;
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.menu.show {
+  opacity: 1;
+} 
